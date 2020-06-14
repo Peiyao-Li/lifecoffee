@@ -1,0 +1,245 @@
+/*第一栏*/
+body {
+	background: rgba();
+}
+.header .container{
+	width: 1000px;
+	margin: 0 auto;
+	padding: 15px;
+}
+.header{
+	height: 100px;
+}
+.logo{
+	float: left;
+}
+.nav{
+	float: left;
+	padding-left: 20px;
+}
+.nav > li{
+	float: left;
+	width: 150px;
+	height: 55px;
+	text-align: center;
+	border-color: rgb(96,56,40);
+	border-style: dotted outset dotted outset;
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 55px;
+	}
+.nav a{
+	color: rgba(0,0,0,1);
+}
+.nav a:hover{
+	font-size: 20px;
+	border-bottom: 3px dotted rgb(96,56,40);
+}
+li.right{
+	margin-right: 40px;
+}
+/*.nav .right{
+	margin-right: 10px;
+}
+.nav .left{
+	margin-left: 10px;
+}*/
+.from{
+	float: right;
+	width: 80px;
+}
+.search{
+	float: left;
+	padding: 10px;
+	border: 1px dotted rgba(99,78,99,0.4);
+}
+.submit{
+	float: left;
+	height: 37px;
+	border: 1px dotted rgba(99,78,99,0.4);
+}
+.banner{
+	height: 375px;
+	position: relative;
+
+}
+.banner li{
+	width: 100%;
+    height: 375px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.banner-fir{
+	background: url(../img/banner2.jpg) no-repeat center center;
+}
+.banner-sec{
+	background: url(../img/banner3.jpg) no-repeat center center;
+}
+.banner-thi{
+	background: url(../img/banner1.jpg) no-repeat center center;
+}
+.point-left{
+	width: 50px;
+	height: 70px;
+	position: absolute;
+	top: 150px;
+	left: 15%;
+	text-align: center;
+	line-height: 70px;
+	font: bolder 40px '微软雅黑';
+	color: rgb(225,200,200);
+	background: rgba(0,0,0,0.4);
+}
+.point-left:hover{
+	width: 70px;
+	height: 90px;
+	position: absolute;
+	top: 140px;
+	left: 15%;
+	text-align: center;
+	line-height: 90px;
+	font: bolder 50px '微软雅黑';
+	color: rgb(96,56,17);
+	background: rgba(0,0,0,0.4);
+}
+.point-right{
+	width: 50px;
+	height: 70px;
+	position: absolute;
+	top: 150px;
+	right: 15%;
+	text-align: center;
+	line-height: 70px;
+	font: bolder 40px '微软雅黑';
+	color: rgb(225,200,200);
+	background: rgba(0,0,0,0.4);
+}
+.point-right:hover{
+	width: 70px;
+	height: 90px;
+	position: absolute;
+	top: 140px;
+	right: 15%;
+	text-align: center;
+	line-height: 90px;
+	font: bolder 50px '微软雅黑';
+	color: rgb(96,56,17);
+	background: rgba(0,0,0,0.4);
+}
+.news{
+	height: 700px;
+	width:100%;
+
+	background: rgba(33,18,11,1);
+	text-align: center;
+}
+.news .container{
+	position: relative;
+	width: 1000px;
+	height: 700px;
+	margin: 0 auto;
+}
+.news img{
+	height: 300px;
+	width: 400px;
+}
+.container>.login{
+	float: left;
+	width: 400px;
+	height: 300px;
+	margin: 25px;
+	background: url(../img/login.jpg);
+}
+.container>.special-3{
+	height: 300px;
+	width: 400px;
+	margin: 25px;
+	float: left;
+}
+.container>.special-1{
+	height: 300px;
+	width: 400px;
+	margin: 25px;
+	float: right;
+}
+.container>.special-2{
+	height: 300px;
+	width: 400px;
+	margin: 25px;
+	float: right;
+}
+.news .float{
+	width: 400px;
+	height: 200px;
+	padding-top: 30px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.4);
+}
+.news .name{
+	color: rgb(225,200,200);
+}
+.news .password{
+	color: rgb(225,200,200);
+}
+.news .remember{
+	color: rgb(225,200,200);
+}
+.news .submit{
+	width: 60px;
+	margin-left:170px;
+}
+.remember {
+	margin-left:-60px;
+}
+.news h3 a{
+	color: grey;
+}
+.news h3 a:hover{
+	font-size: 40px;
+	color:rgb(117,9,54) ;
+}
+.news p{
+	color: grey;
+}
+.news .final{
+	background: rgb(225,200,200);
+}
+.news li{
+	position: relative; 
+}
+.news li .top{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 100px;
+	background: rgba(0, 0, 0, 0.4);
+	text-align: center, center;
+}
+.news li .bottom{
+	position: absolute;
+	bottom: 4px;
+	left: 0;
+	right: 0;
+	height: 100px;
+	background: rgba(0, 0, 0, 0.4);
+	text-align: center, center;
+}
+.footer{
+	height: 300px;
+	width: 100%;
+	background: url(../img/banner2.jpg);
+}
+.footer .container{
+	height: 300px;
+	width: 100%;
+	padding-top: 90px;
+	margin: 0 auto;
+	background: rgba(24,255,255, 0.09);
+	text-align: center;
+}
+.footer p{
+	font: 25px 'sans-serif' ;
+	color: rgb(117,9,54);
+}
